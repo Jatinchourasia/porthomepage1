@@ -1,0 +1,163 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  //   font-family: "League Spartan";
+  font-family: "montserrat", sans-serif;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: White;
+}
+ul {
+  list-style: none;
+}
+li {
+  padding: 0rem 2rem;
+}
+.main-head {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    width: 90vw;
+    margin: 0 5%;
+    h1 {
+    }
+    #logo {
+      height: 7vh;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+    .nav-links {
+      display: flex;
+      justify-content: space-around;
+    }
+    .burger {
+      pointer-events: none;
+      opacity: 0;
+      position: fixed;
+      padding: 0.2rem 2rem;
+      background: black;
+      margin: 0.5rem 0rem;
+      display: block;
+    }
+  }
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background: #040d21;
+  color: aliceblue;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.hero {
+  display: flex;
+  height: 100%;
+  width: 90%;
+  margin: 0 5%;
+  z-index: 2;
+
+  .intro {
+    margin-top: 25vh;
+    margin-bottom: 2rem;
+    z-index: 1;
+    h1 {
+      z-index: 2;
+      font-size: 4rem;
+    }
+    h2 {
+      font-style: italic;
+      font-weight: 50;
+    }
+    .lin {
+      position: absolute;
+      bottom: 0%;
+      left: 50%;
+    }
+    .port {
+      font-size: 1.3rem;
+      position: absolute;
+      bottom: 5%;
+      left: 47.5%;
+    }
+    button {
+      margin: 1rem 1rem 2rem 0rem;
+      padding: 0.8rem 1.5rem;
+      background: linear-gradient(92.28deg, #9cf3d0 0%, #7ccaec 99%);
+      border: none;
+      border-radius: 10px;
+      color: white;
+    }
+    .social {
+      margin: 1rem 2rem 0.5rem 0rem;
+    }
+  }
+}
+
+#svg2 {
+  position: fixed;
+  bottom: 10%;
+  left: 20%;
+  width: 150vw;
+  height: 150vh;
+  z-index: 0;
+}
+
+#voilet {
+  position: fixed;
+  opacity: 0.7;
+}
+
+#logoback {
+  position: fixed;
+  top: 35vh;
+  left: 40vw;
+}
+
+#logoback {
+  animation: fill 0.5s ease forwards 3s;
+}
+
+#logoback path:nth-child(1) {
+  stroke-dasharray: 1077;
+  stroke-dashoffset: 1077;
+  animation: line-ani 2s forwards 1s;
+}
+#logoback path:nth-child(2) {
+  stroke-dasharray: 558;
+  stroke-dashoffset: 558;
+
+  animation: line-ani 2s forwards 1s;
+}
+
+@keyframes line-ani {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fill {
+  to {
+    stroke-opacity: 0;
+    fill: url(#color);
+    opacity: 0.7;
+  }
+}
+
+#voilet2 {
+  position: fixed;
+  left: 30rem;
+  opacity: 0.7;
+}
