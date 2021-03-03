@@ -50,7 +50,7 @@ li {
 }
 
 .main-head nav #logo {
-  height: 7vh;
+  height: 10vh;
   margin-top: 1rem;
   cursor: pointer;
 }
@@ -76,7 +76,7 @@ li {
 main {
   height: 100vh;
   width: 100vw;
-  background: #040d21;
+  background: #020713;
   color: aliceblue;
   overflow: hidden;
   z-index: -2;
@@ -189,7 +189,7 @@ main {
   to {
     stroke-opacity: 0;
     fill: url(#color);
-    opacity: 0.7;
+    opacity: 0.5;
   }
 }
 
@@ -197,7 +197,7 @@ main {
   to {
     stroke-opacity: 0;
     fill: url(#color);
-    opacity: 0.7;
+    opacity: 0.5;
   }
 }
 
@@ -205,5 +205,95 @@ main {
   position: fixed;
   left: 30rem;
   opacity: 0.7;
+}
+
+.ics {
+  height: 0vh;
+}
+
+.t1 {
+  position: fixed;
+  top: 10%;
+  left: -5vw;
+}
+
+.t2 {
+  position: fixed;
+  top: -5rem;
+  left: 5vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.t3 {
+  position: relative;
+  top: -17rem;
+  left: -25vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.t4 {
+  position: fixed;
+  top: 5rem;
+  right: 16vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.t5 {
+  position: fixed;
+  top: -5rem;
+  right: 0rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.t6 {
+  position: fixed;
+  bottom: 9rem;
+  left: -4vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.t7 {
+  position: fixed;
+  bottom: 15rem;
+  right: 2vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.t8 {
+  position: fixed;
+  bottom: 1rem;
+  left: -2vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.t9 {
+  position: fixed;
+  bottom: 2rem;
+  right: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.t10 {
+  position: fixed;
+  bottom: 7rem;
+  right: 17vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.t11 {
+  position: fixed;
+  bottom: 2rem;
+  right: 2vw;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=main.css.map */
